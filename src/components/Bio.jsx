@@ -1,9 +1,16 @@
-import React from 'react'
+import HeroImg from '../assets/imgs/codeBG.jpg'
+import './BioStyling.css'
 
-function main() {
+const Bio = () => {
   return (
-    <div>main</div>
+    <div >
+      <div className="mask">
+        <img className="intro-img" src={HeroImg} alt='bmg-img'>
+
+        </img>
+      </div>
+    </div>
   )
 }
 
-export default main
+export default Bio
